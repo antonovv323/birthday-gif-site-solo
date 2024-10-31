@@ -1,0 +1,114 @@
+body {
+    font-family: "Happy Monkey", system-ui;
+    background-image: linear-gradient(#860301,#b7974d);
+    color:#f4cf77;
+    text-align: center;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#title {
+    background-color: #b50801;
+    border: 3px ridge #f4cf77;
+    border-radius: 30px;
+    padding: 5px 20px;
+    margin-bottom: 25px;
+}
+
+#pers-img {
+    width: 150px;
+    padding: 8px;
+    background-color: #b50801;
+    border: 5px double #f4cf77;
+    border-radius: 30px;
+}
+
+#age {
+    padding: 3px 14px;
+    background-color: #b50801;
+    border: 3px ridge #f4cf77;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#birth-date {
+    background-color: #b50801;
+    border: 3px ridge #f4cf77;
+    padding: 3px 14px;
+    border-radius: 30px;
+    margin: 0;
+}
+
+.gift-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#first-wish {
+    margin-bottom: 10px;
+    background-color: #b50801;
+    border: 3px ridge #f4cf77;
+    border-radius: 30px;
+    padding: 5px 15px;
+}
+
+#hover-warning {
+    margin-top: 0;
+    margin-bottom: 30px;
+    background-color: #b50801;
+    border: 3px ridge #f4cf77;
+    border-radius: 30px;
+    padding: 5px 15px;
+    color: #f4cf77;
+}
+
+.wish {
+    background-color: #b50801;
+    border: 3px ridge #f4cf77;
+    border-radius: 30px;
+    padding: 5px 15px;
+    margin-bottom: 25px;
+}
+
+.gift-image {
+    background-image: url(image/gift-box-background-1.jpg);
+    background-size: cover;
+    height: 450px;
+    width: 450px;
+    border: 5px ridge #f4cf77;
+    border-radius: 30px;
+}
+
+#happy-gif:hover {
+    background-image: url(image/happy-gif.webp);
+}
+
+#genius-gif:hover {
+    background-image: url(image/genius-gif.webp);
+}
+
+#strong-gif:hover {
+    background-image: url(image/you-are-strong-gif.webp);
+}
+
+#nothing-gif:hover {
+    background-image: url(image/nothing-gif.webp);
+}
+
+#cheers-gif {
+    height: 250px;
+    width: 500px;
+}
+
+#cheers-gif:hover {
+    background-image: url(image/cheers.gif);
+}
